@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: top;
+}
+
+div {
+    text-align: center;
+}
+
+img, #checkoutbutton {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#checkoutbutton {
+    display: none;
+}

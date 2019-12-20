@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <title>Giant Bomb - Search</title>
+        <link href="GiantBombApp.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="text/javascript" src="GiantBombApp.js"></script>
+        <div>Credit to <a href="https://www.giantbomb.com/api/">Giant Bomb</a> for use of their API</div>
+        
+        <div>Please enter in the search bar a game you would like to rent.</div>
+        <div>
+            <input type="text" id="searchbar" placeholder="Search..">
+            <button type="submit" onclick="searchGiantBomb()">Search</button>
+        </div>
+        <div>
+            <div id="title"></div>
+            <button id="checkoutbutton" type="button" onclick="checkOutGame()">Check Out</button>
+        </div>
+        <image id="searchedgame"></image>
+        <div id="description"></div>
+    
+    </body>
+</html>
